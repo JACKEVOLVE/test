@@ -5,7 +5,7 @@
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
- <title>[B][COLOR yellow]Daily IPTV Lists[COLOR yellow][B] Date Uploaded: [makelist2.param2] [/COLOR][/B][/I]</title>
+ <title>[B][COLOR orange]Daily IPTV Lists[COLOR yellow][B] Date Uploaded: [makelist2.param2] [/COLOR][/B]</title>
  <link>$doregex[makelist]</link>
 <thumbnail>https://comprariptv.com/wp-content/uploads/2017/12/server-iptv.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/wp6qmN4p8sk/maxresdefault.jpg</fanart>
@@ -17,7 +17,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
- <title>[B][COLOR yellow]Daily IPTV Lists[COLOR yellow] - [I][COLOR red][makelist.param1][makelist.param2][/B][/I][/COLOR] </title>
+ <title>[B][COLOR yellow]Daily IPTV Lists[COLOR yellow] - [COLOR red][makelist.param1][makelist.param2][/B][/COLOR] </title>
  <link>NA</link>
 <thumbnail>https://i.imgur.com/vQlkLtY.png</thumbnail>
 <fanart>https://i.imgur.com/qKiQ0qa.jpg</fanart>

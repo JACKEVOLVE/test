@@ -19,8 +19,8 @@
 <listrepeat><![CDATA[
  <title>[B][COLOR yellow]Daily IPTV Lists[COLOR yellow] - [COLOR red][makelist.param1][makelist.param2][/B][/COLOR] </title>
  <link>NA</link>
-<thumbnail>https://i.imgur.com/vQlkLtY.png</thumbnail>
-<fanart>https://i.imgur.com/qKiQ0qa.jpg</fanart>
+<thumbnail>https://comprariptv.com/wp-content/uploads/2017/12/server-iptv.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/wp6qmN4p8sk/maxresdefault.jpg</fanart>
  <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
 
  

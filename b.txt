@@ -1,0 +1,36 @@
+<item>
+<title>[B][COLOR yellow]Daily IPTV Lists[/COLOR][/B]</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[B][COLOR yellow]Daily IPTV Lists[COLOR yellow][B] Date Uploaded: [makelist2.param2] [/COLOR][/B][/I]</title>
+ <link>$doregex[makelist]</link>
+<thumbnail>https://comprariptv.com/wp-content/uploads/2017/12/server-iptv.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/wp6qmN4p8sk/maxresdefault.jpg</fanart>
+ ]]></listrepeat>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2018]]></expres>
+<page>http://iptvsatlinks.blogspot.mx/search?max-results=40</page>
+</regex>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[B][COLOR yellow]Daily IPTV Lists[COLOR yellow] - [I][COLOR red][makelist.param1][makelist.param2][/B][/I][/COLOR] </title>
+ <link>NA</link>
+<thumbnail>https://i.imgur.com/vQlkLtY.png</thumbnail>
+<fanart>https://i.imgur.com/qKiQ0qa.jpg</fanart>
+ <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
+
+ 
+
+ ]]></listrepeat>
+<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
+<page>[makelist2.param1]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail>https://comprariptv.com/wp-content/uploads/2017/12/server-iptv.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/wp6qmN4p8sk/maxresdefault.jpg</fanart>
+<info></info>
+</item>

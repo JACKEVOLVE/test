@@ -8,7 +8,7 @@
          
 		 <title>[lista.param2]</title>
         <link>plugin://program.plexus/?url=[lista.param1]&amp;mode=1&amp;name=[B][COLOR yellow]*Star-Tec*[/COLOR][/B]+[lista.param2]</link>
-		<thumbnail>https://i0.wp.com/dimitrology.com/wp-content/uploads/2017/09/acestreamengine.png</thumbnail>
+		<thumbnail>http://gen-tec.co/gentecwiz/PLEASE%20SUBSCRIBE%20TO%20CHARLIE%20TEC%20YOUTUBE/addonicons/ace.png</thumbnail>
 		]]></listrepeat>
 <expres><![CDATA[acestream:\/\/(.*?)">(.*?)<]]><expres>
 <page>https://acestreamsearch.com/en/index.php</page>

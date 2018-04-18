@@ -35,5 +35,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 
-<thumbnail>https://i0.wp.com/dimitrology.com/wp-content/uploads/2017/09/acestreamengine.png</thumbnail>
+<thumbnail>http://gen-tec.co/gentecwiz/PLEASE%20SUBSCRIBE%20TO%20CHARLIE%20TEC%20YOUTUBE/addonicons/ace.png</thumbnail>
 </item>

@@ -1,0 +1,6 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="" group-title="",[COLOR yellow][B]NBC Sports Bay Area[/B][/COLOR]
+http://192.187.98.210/hls/vue/25526.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",[COLOR yellow][B]NBC Sports Bay California[/B][/COLOR]
+http://192.187.98.210/hls/vue/25529.m3u8
